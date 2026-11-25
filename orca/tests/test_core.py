@@ -3,6 +3,7 @@ import math
 import pytest
 
 import orca
+from orca import Orca
 
 def _raises(fn, exc=ValueError):
     try:
